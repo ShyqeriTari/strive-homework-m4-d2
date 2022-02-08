@@ -1,11 +1,11 @@
 import { Navbar, Nav } from 'react-bootstrap'
 
-const MainNavbar = (props) => (
-  <Navbar collapseOnSelect expand='md' bg='light' variant='light'>
+const MyNav = (props) => (
+  <Navbar collapseOnSelect expand='md' bg='dark' variant='dark'>
     <Navbar.Brand href='#'>{props.branding}</Navbar.Brand>
     <Navbar.Toggle aria-controls='responsive-navbar-nav' />
     <Navbar.Collapse id='responsive-navbar-nav'>
-      <Nav className='ml-auto'>
+      <Nav>
         <Nav.Link href='#'>Home</Nav.Link>
         <Nav.Link href='#'>About</Nav.Link>
         <Nav.Link href='#'>Browse</Nav.Link>
@@ -14,4 +14,4 @@ const MainNavbar = (props) => (
   </Navbar>
 )
 
-export default MainNavbar
+export default MyNav
