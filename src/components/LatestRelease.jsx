@@ -6,7 +6,7 @@ import books from '../data/history.json'
   const LatestRelease = () =>(
             <Row className='m-auto'>
                  { books.map((book) =>(
-                <Col xs='6' md='2'>
+                <Col xs='12' sm='6' md='4' lg='3' xl='2'>
           
     <Card className='mb-3' style={{ width: '15rem' }} key={book.asin}>
   <Card.Img variant="top" src={book.img} style={{height: '350px'}} />
