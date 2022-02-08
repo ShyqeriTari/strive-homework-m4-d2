@@ -6,13 +6,13 @@ import books from '../data/history.json'
   const LatestRelease = () =>(
             <Row className='m-auto'>
                  { books.map((book) =>(
-                <Col xs='12' sm='6' md='4' lg='3' xl='2' key={book.asin}>
+                <Col xs='12' sm='6' md='4' lg='2' key={book.asin}>
           
-    <Card className='mb-3' style={{ width: '15rem' }}>
-  <Card.Img variant="top" src={book.img} style={{height: '350px'}} />
+    <Card className='mb-3' style={{ width: '12rem' }}>
+  <Card.Img variant="top" src={book.img} style={{height: '300px'}} />
   {/* <Card.Body>
     <Card.Title style={{
-    width: '14rem',
+    width: '10rem',
     overflow: 'hidden',
     textOverflow: 'ellipsis',
     whiteSpace: 'nowrap'
@@ -23,8 +23,8 @@ import books from '../data/history.json'
     <ListGroupItem style={{ fontWeight: 'bolder' }}>$ {book.price}</ListGroupItem>
   </ListGroup> */}
 </Card>                     
-</Col>
-))} 
+</Col> 
+ ))} 
 </Row>
   )
 
