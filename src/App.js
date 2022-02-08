@@ -1,10 +1,10 @@
 import './App.css'
-import Navbar from './components/Navbar'
+import MainNavbar from './components/MainNavbar'
 
 function App() {
   return (
     <div>
-      <Navbar branding='StriveBooks' />
+      <MainNavbar branding='StriveBooks' />
     </div>
   )
 }
