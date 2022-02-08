@@ -20,7 +20,7 @@ import books from '../data/history.json'
   </Card.Body>
   <ListGroup className="list-group-flush">
     <ListGroupItem>{book.category}</ListGroupItem>
-    <ListGroupItem style={{ fontWeight: 'bolder' }}>{book.price}</ListGroupItem>
+    <ListGroupItem style={{ fontWeight: 'bolder' }}>$ {book.price}</ListGroupItem>
   </ListGroup>
 </Card>                     
 </Col>
